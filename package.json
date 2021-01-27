@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "Nodemon Video Tutorials Exercise Files",
   "scripts": {
-    "git:commit": "cz"
+    "git:commit": "cz",
+    "start": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7",
     "prettier": "^2.2.1"
   },
   "dependencies": {

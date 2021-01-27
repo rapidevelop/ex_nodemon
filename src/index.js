@@ -9,7 +9,7 @@ if (portArg !== undefined && !Number.isNaN(parseInt(portArg, 10))) {
 }
 
 app.get('/', (req, res) => {
-  res.send('<h1>Hello Express!</h1>');
+  res.send('<h1>Hello from Nodemon!!!</h1>');
 });
 
 app.listen(port, () => {
